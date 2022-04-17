@@ -1,0 +1,7 @@
+service aal /system/bin/aal
+    # BSP:modify KCBHLYYL-370 by baofu.zhang [CR:ALPS04718955] 20190731 start
+    class core
+    # BSP:modify KCBHLYYL-370 by baofu.zhang [CR:ALPS04718955] 20190731 end
+    user system
+    group system graphics
+
